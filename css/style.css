@@ -1,0 +1,373 @@
+/* #region Common Styles */
+* {
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+address {
+	font-style: normal;
+}
+
+button {
+	cursor: pointer;
+}
+
+body {
+	font-family: 'Montserrat', serif;
+	color: #111111;
+	background-color: #fafafa;
+}
+
+.accent__color {
+	color: #fd9222;
+}
+
+/* #endregion Common Styles */
+
+/* #region Header */
+.header {
+}
+.header__nav {
+}
+
+.logo {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.11;
+	letter-spacing: -0.03em;
+	color: #111111;
+}
+
+.logo__style {
+	font-style: italic;
+}
+
+.header__nav-list {
+}
+.nav__item {
+}
+.nav__item-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14286;
+	letter-spacing: -0.02em;
+	color: #111;
+}
+
+.nav__item-link:hover,
+.nav__item-link:focus {
+	color: #fd9222;
+}
+
+.header__social-list {
+}
+.header__social-item {
+}
+.header__social-link {
+}
+/* #endregion Header */
+
+/* #region Hero */
+.hero {
+	border-radius: 30px;
+	width: 1136px;
+	height: 600px;
+	background: rgba(17, 17, 17, 0.4);
+}
+
+.hero__title {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 1.21;
+	letter-spacing: -0.03em;
+	color: #fff;
+}
+
+.hero__btn {
+	font-weight: 600;
+	font-size: 14px;
+	color: #fff;
+	background-color: #fd9222;
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+	color: #fd9222;
+	background-color: #fcf1e0;
+}
+
+.hero__link {
+	font-weight: 600;
+	font-size: 14px;
+	color: #fff;
+}
+
+.hero__link:hover,
+.hero__link:focus {
+	color: #fd9222;
+}
+
+.scroll {
+}
+/* #endregion Hero */
+
+/* #region Benefits */
+.benefits {
+	background-color: #1e1823;
+}
+.benefits__title {
+}
+.benefits__list {
+}
+.benefits__item {
+}
+.benefits__name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.22;
+	color: #fff;
+}
+.benefits__description {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.28;
+	letter-spacing: -0.02em;
+	color: rgba(255, 255, 255, 0.7);
+}
+/* #endregion Benefits */
+
+/* #region Ingredients */
+.ingredients {
+}
+
+.ingredients__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.16;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #111;
+}
+
+.ingredients__description {
+}
+.ingredients__list {
+}
+.ingredients__item {
+}
+
+.ingredients__img {
+}
+.ingredients__name {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.28;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color: #fff;
+}
+/* #endregion Ingredients */
+
+/* #region Education */
+.education {
+}
+.education__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.16;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #111;
+}
+.education__name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.33;
+	color: #111;
+}
+.education__list {
+}
+.education__description {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.28;
+	letter-spacing: -0.02em;
+	color: #111;
+}
+/* #endregion Ingredients */
+
+/* #region Our Products */
+.products {
+}
+.products__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.16;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #111;
+}
+
+.products__list {
+}
+.products__item {
+}
+.products__name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color: #111;
+}
+.products__description {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: -0.02em;
+	color: rgba(17, 17, 17, 0.7);
+}
+.products__link {
+	font-weight: 600;
+	font-size: 14px;
+	color: #111;
+}
+/* #endregion Our Products */
+
+/* #region Top Sellers */
+.leaders {
+}
+.leaders__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.16;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #111;
+}
+
+.leaders__list {
+}
+.leaders__item {
+}
+.leaders__name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color: #111;
+}
+/* #endregion Top Sellers */
+
+/* #region Chocolate is Loved */
+.reviews {
+}
+.reviews__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.16;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #111;
+}
+
+.reviews__list {
+}
+.reviews__item {
+}
+.reviews__img {
+}
+.reviews__name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.33;
+	text-align: center;
+	color: #111;
+}
+.reviews__description {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.28;
+	letter-spacing: -0.02em;
+	text-align: center;
+	color: rgba(17, 17, 17, 0.7);
+}
+.reviews__btn {
+	font-weight: 600;
+	font-size: 18px;
+	color: #111;
+	background-color: transparent;
+}
+
+.reviews__btn:hover,
+.reviews__btn:focus {
+	color: #fff;
+	background-color: #fd9222;
+}
+/* #endregion Chocolate is Loved */
+
+/* #region Footer */
+.footer {
+	background-color: #1e1823;
+}
+.footer__top-side {
+}
+.footer__title {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 1.21;
+	letter-spacing: -0.02em;
+	color: #fff;
+}
+.accent__color {
+}
+.footer__contact {
+}
+.footer__contact-name {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.28;
+	color: #fff;
+}
+.footer__contact-list {
+}
+.footer__contact-item {
+}
+.footer__contact-link {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.28;
+	letter-spacing: -0.02em;
+	text-align: center;
+	color: #fff;
+}
+.footer__bottom-side {
+}
+.footer__nav {
+}
+.footer__nav-list {
+}
+.footer__nav-item {
+}
+.footer__nav-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: -0.02em;
+	color: #fff;
+}
+/* #endregion Footer */
