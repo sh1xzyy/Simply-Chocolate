@@ -20,18 +20,21 @@
 		/>
 		<link
 			rel="shortcut icon"
-			href="./images/icons/chocolate.svg"
+			href="../images/icons/logo-chocolate.svg"
 			type="image/svg"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
-		<!-- ============= Header =============-->
+		<!-- #region Header -->
 		<header class="header">
 			<div class="container">
 				<nav class="header__nav">
 					<a class="logo" href="./index.html"
 						><span class="logo__style">SIMPLY</span> CHOCOLATE
+						<svg class="logo__icon" width="24" height="24">
+							<use href="./images/icons.svg#icon-logo-chocolate"></use>
+						</svg>
 					</a>
 					<ul class="header__nav-list">
 						<li class="nav__item">
@@ -49,25 +52,32 @@
 				</nav>
 				<ul class="header__social-list">
 					<li class="header__social-item">
-						<a class="header__social-link" href="#"
-							><img src="./images/header/facebook.png" alt="facebook-icon"
-						/></a>
+						<a class="header__social-link" href="#">
+							<svg class="social__icon" width="24" height="24">
+								<use href="./images/icons.svg#icon-facebook"></use>
+							</svg>
+						</a>
 					</li>
 					<li class="header__social-item">
-						<a class="header__social-link" href="#"
-							><img src="./images/header/instagram.png" alt="instagram-icon"
-						/></a>
+						<a class="header__social-link" href="#">
+							<svg class="social__icon" width="24" height="24">
+								<use href="./images/icons.svg#icon-instagram"></use>
+							</svg>
+						</a>
 					</li>
 					<li class="header__social-item">
-						<a class="header__social-link" href="#"
-							><img src="./images/header/twitter.png" alt="twitter-icon"
-						/></a>
+						<a class="header__social-link" href="#">
+							<svg class="social__icon" width="24" height="24">
+								<use href="./images/icons.svg#icon-twitter"></use>
+							</svg>
+						</a>
 					</li>
 				</ul>
 			</div>
 		</header>
 		<main>
-			<!-- ============= Hero ============= -->
+			<!-- #endregion Header-->
+			<!-- #region Hero -->
 			<section class="hero">
 				<div class="container">
 					<h1 class="hero__title">
@@ -79,17 +89,22 @@
 							<button class="hero__btn" type="button">Buy now</button>
 							<a class="hero__link" href="#making-process">How it’s made</a>
 						</div>
-						<a class="hero__link scroll" href="#benefits">scroll down</a>
+						<a class="hero__link scroll" href="#benefits">scroll down </a>
 					</div>
 				</div>
 			</section>
-
-			<!-- ============= Benefits ============= -->
+			<!-- #endregion Hero -->
+			<!-- #region Benefits -->
 			<section class="benefits" id="benefits">
 				<div class="container">
 					<h2 class="visually__hidden">Our benefits</h2>
 					<ul class="benefits__list">
 						<li class="benefits__item">
+							<div class="benefits__icon">
+								<svg width="32" height="32">
+									<use href="./images/icons.svg#icon-chocolate"></use>
+								</svg>
+							</div>
 							<h3 class="benefits__name">Unsurpassed taste</h3>
 							<p class="benefits__description">
 								Crafted with the finest quality cocoa beans and a dedication to
@@ -99,6 +114,11 @@
 							</p>
 						</li>
 						<li class="benefits__item">
+							<div class="benefits__icon">
+								<svg width="32" height="32">
+									<use href="./images/icons.svg#icon-coin"></use>
+								</svg>
+							</div>
 							<h3 class="benefits__name">Affordable price</h3>
 							<p class="benefits__description">
 								Indulge in high-quality chocolate without breaking the bank with
@@ -109,6 +129,11 @@
 							</p>
 						</li>
 						<li class="benefits__item">
+							<div class="benefits__icon">
+								<svg width="32" height="32">
+									<use href="./images/icons.svg#icon-spoon"></use>
+								</svg>
+							</div>
 							<h3 class="benefits__name">Own production</h3>
 							<p class="benefits__description">
 								We take pride in our own production process, ensuring that every
@@ -120,8 +145,8 @@
 					</ul>
 				</div>
 			</section>
-
-			<!-- ============= Ingredients ============= -->
+			<!-- #endregion Benefits -->
+			<!-- #region Ingredients -->
 			<section class="ingredients section__paddings">
 				<div class="container">
 					<h2 class="section__title ingredients__title">
@@ -138,6 +163,11 @@
 								height="160"
 							/>
 							<h3 class="ingredients__name">milk chocolate</h3>
+							<a class="ingredients__arrow-link" href="#">
+								<svg width="24" height="24">
+									<use href="./images/icons.svg#icon-arrow"></use>
+								</svg>
+							</a>
 						</li>
 						<li class="ingredients__item">
 							<img
@@ -148,6 +178,11 @@
 								height="160"
 							/>
 							<h3 class="ingredients__name">milk</h3>
+							<a class="ingredients__arrow-link" href="#">
+								<svg width="24" height="24">
+									<use href="./images/icons.svg#icon-arrow"></use>
+								</svg>
+							</a>
 						</li>
 						<li class="ingredients__item">
 							<img
@@ -158,6 +193,11 @@
 								height="160"
 							/>
 							<h3 class="ingredients__name">nuts</h3>
+							<a class="ingredients__arrow-link" href="#">
+								<svg width="24" height="24">
+									<use href="./images/icons.svg#icon-arrow"></use>
+								</svg>
+							</a>
 						</li>
 						<li class="ingredients__item">
 							<img
@@ -168,6 +208,11 @@
 								height="160"
 							/>
 							<h3 class="ingredients__name">semi - sweet chocolate</h3>
+							<a class="ingredients__arrow-link" href="#">
+								<svg width="24" height="24">
+									<use href="./images/icons.svg#icon-arrow"></use>
+								</svg>
+							</a>
 						</li>
 						<li class="ingredients__item">
 							<img
@@ -178,6 +223,11 @@
 								height="160"
 							/>
 							<h3 class="ingredients__name">cacao</h3>
+							<a class="ingredients__arrow-link" href="#">
+								<svg width="24" height="24">
+									<use href="./images/icons.svg#icon-arrow"></use>
+								</svg>
+							</a>
 						</li>
 						<li class="ingredients__item">
 							<img
@@ -188,6 +238,11 @@
 								height="160"
 							/>
 							<h3 class="ingredients__name">raspberry</h3>
+							<a class="ingredients__arrow-link" href="#">
+								<svg width="24" height="24">
+									<use href="./images/icons.svg#icon-arrow"></use>
+								</svg>
+							</a>
 						</li>
 						<li class="ingredients__item">
 							<img
@@ -198,12 +253,17 @@
 								height="160"
 							/>
 							<h3 class="ingredients__name">coconut oil</h3>
+							<a class="ingredients__arrow-link" href="#">
+								<svg width="24" height="24">
+									<use href="./images/icons.svg#icon-arrow"></use>
+								</svg>
+							</a>
 						</li>
 					</ul>
 				</div>
 			</section>
-
-			<!-- ============= How its made =============  -->
+			<!-- #endregion Ingredients -->
+			<!-- #region How its made -->
 			<section class="education section__paddings" id="making-process">
 				<div class="container">
 					<h2 class="section__title education__title">
@@ -247,8 +307,8 @@
 					</div>
 				</div>
 			</section>
-
-			<!-- ============= Our Products ============= -->
+			<!-- #endregion How its made -->
+			<!-- #region Our Products -->
 			<section class="section__paddings products">
 				<div class="container">
 					<h2 class="section__title products__title">
@@ -370,8 +430,8 @@
 					</ul>
 				</div>
 			</section>
-
-			<!-- ============= Top Sellers ============= -->
+			<!-- #endregion Our Products -->
+			<!-- #region Top Sellers -->
 			<section class="section__paddings leaders">
 				<div class="container">
 					<h2 class="section__title leaders__title">
@@ -388,6 +448,13 @@
 								height="464"
 							/>
 							<h3 class="leaders__name">chocolate with nuts</h3>
+							<p class="leaders__overlay-text">
+								Chocolate with nuts is a delectable combination that brings
+								together the smoothness of chocolate and the crunchiness of
+								nuts. Whether it's milk chocolate, dark chocolate, or white
+								chocolate, the addition of nuts adds a whole new dimension of
+								flavor and texture.
+							</p>
 						</li>
 						<li class="leaders__item">
 							<img
@@ -398,6 +465,12 @@
 								height="464"
 							/>
 							<h3 class="leaders__name">chocolate with fruits</h3>
+							<p class="leaders__overlay-text">
+								Chocolate with fruit is an unbeatable combination of two of the
+								tastiest things in the world. This dessert combines delicate and
+								aromatic chocolate with fresh and juicy fruits, creating a true
+								poetry of taste.
+							</p>
 						</li>
 						<li class="leaders__item">
 							<img
@@ -408,13 +481,19 @@
 								height="464"
 							/>
 							<h3 class="leaders__name">dark chocolate</h3>
+							<p class="leaders__overlay-text">
+								Dark chocolate is a rich and indulgent treat that is beloved by
+								many chocolate enthusiasts. It is made from cocoa beans, which
+								are roasted, ground, and then processed to produce chocolate
+								liquor. Dark chocolate contains a higher percentage of cocoa
+								solids compared to milk chocolate.
+							</p>
 						</li>
 					</ul>
 				</div>
 			</section>
-
-			<!-- ============= Reviews ============= -->
-
+			<!-- #endregion Top Sellers -->
+			<!-- #region Reviews -->
 			<section class="section__paddings reviews" id="reviews">
 				<div class="container">
 					<h2 class="section__title reviews__title">
@@ -470,8 +549,8 @@
 				</div>
 			</section>
 		</main>
-
-		<!-- ============= Footer ============= -->
+		<!-- #endregion Reviews -->
+		<!-- #region Footer -->
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__top-block">
@@ -479,23 +558,51 @@
 						<span class="accent__color">Chocolate</span> a delicious cure for a
 						bad day
 					</h2>
-					<address class="footer__contact">
-						<p class="footer__contact-name">Contact us</p>
-						<ul class="footer__contact-list">
-							<li class="footer__contact-item">
-								<a class="footer__contact-link" href="tel:+380684439426"
-									>+380 (68) 443-94-26</a
-								>
-							</li>
-							<li class="footer__contact-item">
-								<a
-									class="footer__contact-link"
-									href="mailto:simplycthoc@gmail.com"
-									>simplycthoc@gmail.com</a
-								>
-							</li>
-						</ul>
-					</address>
+					<div class="footer__right-side">
+						<div>
+							<p class="footer__contact-name">Social networks</p>
+							<ul class="footer__social-list">
+								<li class="footer__social-item">
+									<a class="footer__social-link" href="#">
+										<svg class="social__icon" width="24" height="24">
+											<use href="./images/icons.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a class="footer__social-link" href="#">
+										<svg class="social__icon" width="24" height="24">
+											<use href="./images/icons.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a class="footer__social-link" href="#">
+										<svg class="social__icon" width="24" height="24">
+											<use href="./images/icons.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<address class="footer__contact">
+							<p class="footer__contact-name">Contact us</p>
+							<ul class="footer__contact-list">
+								<li class="footer__contact-item">
+									<a class="footer__contact-link" href="tel:+380684439426"
+										>+380 (68) 443-94-26</a
+									>
+								</li>
+								<li class="footer__contact-item">
+									<a
+										class="footer__contact-link"
+										href="mailto:simplycthoc@gmail.com"
+										>simplycthoc@gmail.com</a
+									>
+								</li>
+							</ul>
+						</address>
+					</div>
 				</div>
 				<div class="footer__bottom-block">
 					<nav class="footer__nav">
@@ -515,8 +622,20 @@
 							</li>
 						</ul>
 					</nav>
+					<form class="footer__form">
+						<label for="email"></label>
+						<input
+							class="footer__input"
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Enter your email"
+						/>
+						<button class="footer__form-btn" type="submit">Subscribe</button>
+					</form>
 				</div>
 			</div>
 		</footer>
+		<!-- #endregion Footer -->
 	</body>
 </html>
