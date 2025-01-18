@@ -20,7 +20,7 @@
 		/>
 		<link
 			rel="shortcut icon"
-			href="../images/icons/logo-chocolate.svg"
+			href="./images/icons/chocolate.svg"
 			type="image/svg"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
@@ -30,44 +30,44 @@
 		<header class="header">
 			<div class="container">
 				<nav class="header__nav">
-					<a class="logo" href="./index.html"
-						><span class="logo__style">SIMPLY</span> CHOCOLATE
-						<svg class="logo__icon" width="24" height="24">
+					<a class="header__logo" href="./index.html"
+						><span class="header__logo-text">SIMPLY</span> CHOCOLATE
+						<svg class="header__logo-icon" width="24" height="24">
 							<use href="./images/icons.svg#icon-logo-chocolate"></use>
 						</svg>
 					</a>
 					<ul class="header__nav-list">
-						<li class="nav__item">
-							<a class="nav__item-link" href="./index.html">Home</a>
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="./index.html">Home</a>
 						</li>
-						<li class="nav__item">
-							<a class="nav__item-link" href="#making-process"
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="#making-process"
 								>How it’s made?</a
 							>
 						</li>
-						<li class="nav__item">
-							<a class="nav__item-link" href="#reviews">Chocolate is loved</a>
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="#reviews">Chocolate is loved</a>
 						</li>
 					</ul>
 				</nav>
 				<ul class="header__social-list">
 					<li class="header__social-item">
 						<a class="header__social-link" href="#">
-							<svg class="social__icon" width="24" height="24">
+							<svg class="header__social-icon" width="24" height="24">
 								<use href="./images/icons.svg#icon-facebook"></use>
 							</svg>
 						</a>
 					</li>
 					<li class="header__social-item">
 						<a class="header__social-link" href="#">
-							<svg class="social__icon" width="24" height="24">
+							<svg class="header__social-icon" width="24" height="24">
 								<use href="./images/icons.svg#icon-instagram"></use>
 							</svg>
 						</a>
 					</li>
 					<li class="header__social-item">
 						<a class="header__social-link" href="#">
-							<svg class="social__icon" width="24" height="24">
+							<svg class="header__social-icon" width="24" height="24">
 								<use href="./images/icons.svg#icon-twitter"></use>
 							</svg>
 						</a>
@@ -84,12 +84,19 @@
 						Treat yourself or a loved one to our finest ingredients for a moment
 						of pure delight!
 					</h1>
-					<div class="hero__cont-btn">
-						<div>
+					<div class="hero__actions">
+						<div class="hero__btns">
 							<button class="hero__btn" type="button">Buy now</button>
 							<a class="hero__link" href="#making-process">How it’s made</a>
 						</div>
-						<a class="hero__link scroll" href="#benefits">scroll down </a>
+						<a class="hero__link scroll" href="#benefits"
+							>scroll down
+							<div class="hero__scroll-icon">
+								<svg class="hero__down-svg" width="22" height="22">
+									<use href="./images/icons.svg#icon-down"></use>
+								</svg>
+							</div>
+						</a>
 					</div>
 				</div>
 			</section>
@@ -164,7 +171,7 @@
 							/>
 							<h3 class="ingredients__name">milk chocolate</h3>
 							<a class="ingredients__arrow-link" href="#">
-								<svg width="24" height="24">
+								<svg class="ingredients__icon" width="24" height="24">
 									<use href="./images/icons.svg#icon-arrow"></use>
 								</svg>
 							</a>
@@ -179,7 +186,7 @@
 							/>
 							<h3 class="ingredients__name">milk</h3>
 							<a class="ingredients__arrow-link" href="#">
-								<svg width="24" height="24">
+								<svg class="ingredients__icon" width="24" height="24">
 									<use href="./images/icons.svg#icon-arrow"></use>
 								</svg>
 							</a>
@@ -194,7 +201,7 @@
 							/>
 							<h3 class="ingredients__name">nuts</h3>
 							<a class="ingredients__arrow-link" href="#">
-								<svg width="24" height="24">
+								<svg class="ingredients__icon" width="24" height="24">
 									<use href="./images/icons.svg#icon-arrow"></use>
 								</svg>
 							</a>
@@ -209,7 +216,7 @@
 							/>
 							<h3 class="ingredients__name">semi - sweet chocolate</h3>
 							<a class="ingredients__arrow-link" href="#">
-								<svg width="24" height="24">
+								<svg class="ingredients__icon" width="24" height="24">
 									<use href="./images/icons.svg#icon-arrow"></use>
 								</svg>
 							</a>
@@ -224,7 +231,7 @@
 							/>
 							<h3 class="ingredients__name">cacao</h3>
 							<a class="ingredients__arrow-link" href="#">
-								<svg width="24" height="24">
+								<svg class="ingredients__icon" width="24" height="24">
 									<use href="./images/icons.svg#icon-arrow"></use>
 								</svg>
 							</a>
@@ -239,7 +246,7 @@
 							/>
 							<h3 class="ingredients__name">raspberry</h3>
 							<a class="ingredients__arrow-link" href="#">
-								<svg width="24" height="24">
+								<svg class="ingredients__icon" width="24" height="24">
 									<use href="./images/icons.svg#icon-arrow"></use>
 								</svg>
 							</a>
@@ -254,7 +261,7 @@
 							/>
 							<h3 class="ingredients__name">coconut oil</h3>
 							<a class="ingredients__arrow-link" href="#">
-								<svg width="24" height="24">
+								<svg class="ingredients__icon" width="24" height="24">
 									<use href="./images/icons.svg#icon-arrow"></use>
 								</svg>
 							</a>
@@ -269,7 +276,7 @@
 					<h2 class="section__title education__title">
 						how it’s <span class="accent__color">made</span>?
 					</h2>
-					<div class="education__cont">
+					<div class="education__content">
 						<img
 							class="education__img"
 							src="./images/making-procees.jpg"
@@ -277,7 +284,7 @@
 							width="600"
 							height="400"
 						/>
-						<div>
+						<div class="education__details">
 							<h3 class="education__name">
 								Try our chocolates today and discover the perfect balance of
 								flavor
@@ -323,10 +330,10 @@
 								width="230"
 								height="201"
 							/>
-							<div class="products__item-text">
+							<div class="products__info">
 								<h3 class="products__name">orange</h3>
 								<p class="products__description">Dark chocolate</p>
-								<a class="products__link" href="#">45 UAH</a>
+								<a class="products__price" href="#">45 UAH</a>
 							</div>
 						</li>
 						<li class="products__item">
@@ -337,10 +344,10 @@
 								width="230"
 								height="201"
 							/>
-							<div class="products__item-text">
+							<div class="products__info">
 								<h3 class="products__name">apple&cranberry</h3>
 								<p class="products__description">Milk chocolate</p>
-								<a class="products__link" href="#">50 UAH</a>
+								<a class="products__price" href="#">50 UAH</a>
 							</div>
 						</li>
 						<li class="products__item">
@@ -351,10 +358,10 @@
 								width="230"
 								height="201"
 							/>
-							<div class="products__item-text">
+							<div class="products__info">
 								<h3 class="products__name">lime&sea salt</h3>
 								<p class="products__description">Dark chocolate</p>
-								<a class="products__link" href="#">66 UAH</a>
+								<a class="products__price" href="#">66 UAH</a>
 							</div>
 						</li>
 						<li class="products__item">
@@ -365,10 +372,10 @@
 								width="230"
 								height="201"
 							/>
-							<div class="products__item-text">
+							<div class="products__info">
 								<h3 class="products__name">pineapple</h3>
 								<p class="products__description">Dark chocolate</p>
-								<a class="products__link" href="#">54 UAH</a>
+								<a class="products__price" href="#">54 UAH</a>
 							</div>
 						</li>
 						<li class="products__item">
@@ -379,10 +386,10 @@
 								width="230"
 								height="201"
 							/>
-							<div class="products__item-text">
+							<div class="products__info">
 								<h3 class="products__name">classic</h3>
 								<p class="products__description">Milk chocolate</p>
-								<a class="products__link" href="#">45 UAH</a>
+								<a class="products__price" href="#">45 UAH</a>
 							</div>
 						</li>
 						<li class="products__item">
@@ -393,10 +400,10 @@
 								width="230"
 								height="201"
 							/>
-							<div class="products__item-text">
+							<div class="products__info">
 								<h3 class="products__name">honey</h3>
 								<p class="products__description">Milk chocolate</p>
-								<a class="products__link" href="#">50 UAH</a>
+								<a class="products__price" href="#">50 UAH</a>
 							</div>
 						</li>
 						<li class="products__item">
@@ -407,10 +414,10 @@
 								width="230"
 								height="201"
 							/>
-							<div class="products__item-text">
+							<div class="products__info">
 								<h3 class="products__name">roasted fruits</h3>
 								<p class="products__description">Dark chocolate</p>
-								<a class="products__link" href="#">66 UAH</a>
+								<a class="products__price" href="#">66 UAH</a>
 							</div>
 						</li>
 						<li class="products__item">
@@ -421,10 +428,10 @@
 								width="230"
 								height="201"
 							/>
-							<div class="products__item-text">
+							<div class="products__info">
 								<h3 class="products__name">classic</h3>
 								<p class="products__description">White chocolate</p>
-								<a class="products__link" href="#">54 UAH</a>
+								<a class="products__price" href="#">54 UAH</a>
 							</div>
 						</li>
 					</ul>
@@ -442,8 +449,7 @@
 							<img
 								class="leaders__img"
 								src="./images/top-sellers/nuts-chocolate.jpg"
-								alt="chocolate with
-				nuts"
+								alt="chocolate with nuts"
 								width="368"
 								height="464"
 							/>
@@ -560,7 +566,7 @@
 					</h2>
 					<div class="footer__right-side">
 						<div>
-							<p class="footer__contact-name">Social networks</p>
+							<p class="footer__social-title">Social networks</p>
 							<ul class="footer__social-list">
 								<li class="footer__social-item">
 									<a class="footer__social-link" href="#">
@@ -637,5 +643,89 @@
 			</div>
 		</footer>
 		<!-- #endregion Footer -->
+		<!-- #region Modal Overlay -->
+		<div class="modal__overlay">
+			<div class="modal__content">
+				<button class="modal__close-btn" type="button">
+					<svg class="modal__close-icon" width="28" height="28">
+						<use href="./images/icons.svg#icon-close"></use>
+					</svg>
+				</button>
+				<p class="modal__title">
+					leave a review about <span class="accent__color">our chocolate</span>
+				</p>
+				<form class="modal__form">
+					<label class="modal__label" for="user__name">Name</label>
+					<div class="modal__input-container">
+						<svg class="modal__input-icon" width="24" height="24">
+							<use href="./images/icons.svg#icon-user"></use>
+						</svg>
+						<input
+							class="modal__input"
+							type="text"
+							name="user__name"
+							id="user__name"
+							required
+						/>
+					</div>
+					<label class="modal__label" for="user__email">Email</label>
+					<div class="modal__input-container">
+						<svg class="modal__input-icon" width="24" height="24">
+							<use href="./images/icons.svg#icon-mail"></use>
+						</svg>
+						<input
+							class="modal__input"
+							type="email"
+							name="user__email"
+							id="user__email"
+							required
+						/>
+					</div>
+					<label class="modal__label" for="user__tel">Phone Number</label>
+					<div class="modal__input-container">
+						<svg class="modal__input-icon" width="24" height="24">
+							<use href="./images/icons.svg#icon-phone"></use>
+						</svg>
+						<input
+							class="modal__input"
+							type="tel"
+							name="user__tel"
+							id="user__tel"
+							required
+						/>
+					</div>
+					<label class="modal__label" for="user__comment">Comment</label>
+					<textarea
+						class="modal__textarea"
+						name="user__comment"
+						id="user__comment"
+						placeholder="Enter Text"
+						required
+					></textarea>
+					<div class="modal__user-confirm">
+						<input
+							class="modal__checkbox visually__hidden"
+							type="checkbox"
+							name="user__privacy"
+							id="user__privacy"
+							required
+						/>
+						<label class="modal__checkbox-label" for="user__privacy">
+							<span class="modal__custom-checkbox">
+								<svg class="modal__check-icon" width="10" height="10">
+									<use href="./images/icons.svg#icon-check-mark"></use>
+								</svg>
+							</span>
+							<span class="modal__checkbox-text">
+								I accept the terms and conditions of the
+								<a href="#">Privacy Policy</a>
+							</span>
+						</label>
+					</div>
+					<button class="modal__btn" type="submit">Send</button>
+				</form>
+			</div>
+		</div>
+		<!-- #endregion Modal Overlay -->
 	</body>
 </html>
